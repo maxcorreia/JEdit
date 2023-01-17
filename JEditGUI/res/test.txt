@@ -1,0 +1,3 @@
+load res/dolphin.ppm dol 
+save res/newer-dolphin.ppm dol 
+q

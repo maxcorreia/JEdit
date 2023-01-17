@@ -1,0 +1,80 @@
+load res/dolphin.ppm dol
+
+brighten -50 dol doldark
+
+red-component dol dolred
+
+green-component dol dolgreen
+
+blue-component dol dolblue
+
+luma-component dol dolluma
+
+value-component dol dolvalue
+
+intensity-component dol dolint
+
+blur dol dolblur
+
+sharpen dol dolsharp
+
+greyscale dol dolgrey
+
+sepia dol dolsep
+
+horizontal-flip dol 46
+
+vertical-flip dol 28
+
+save res/dolphin-darker-by-50.ppm doldark
+
+save res/dolphin-sepia.ppm dolsep
+
+save res/dolphin-blur.ppm dolblur
+
+save res/dolphin-greyscale dolgrey
+
+save res/dolphin-sharpen.ppm dolsharp
+
+save res/dolphin-red-grayscale.ppm dolred
+
+save res/dolphin-blue-grayscale.ppm dolblue
+
+save res/dolphin-green-grayscale.ppm dolgreen
+
+save res/dolphin-luma-grayscale.ppm dolluma
+
+save res/dolphin-value-grayscale.ppm dolvalue
+
+save res/dolphin-intensity-grayscale.ppm dolint
+
+save res/dolphin-horizontal.ppm 46
+
+save res/dolphin-vertical.ppm 28
+
+save res/dolphin.png dol
+
+save res/dolphin.jpg dol
+
+save res/dolphin.bmp dol
+
+
+load res/dots.png dots
+
+sepia dots dotssep
+
+sharpen dots dotssharp
+
+greyscale dots dotsgray
+
+blur dots dotsblur
+
+save res/dots-blur.png dotsblur
+
+save res/dots-sharpen.png dotssharp
+
+save res/dots-sepia.png dotssep
+
+save res/dots-greyscale.png dotsgray
+
+q
